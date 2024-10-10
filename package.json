@@ -1,0 +1,12 @@
+{
+  "name": "typescript-design-patterns-and-solid-principles",
+  "version": "1.0.0",
+  "description": "Welcome to this one-of-a-kind course specifically designed to transform your TypeScript programming skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
