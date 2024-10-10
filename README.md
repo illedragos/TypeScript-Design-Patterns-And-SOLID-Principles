@@ -1,0 +1,1 @@
+# TypeScript-Design-Patterns-And-SOLID-Principles
