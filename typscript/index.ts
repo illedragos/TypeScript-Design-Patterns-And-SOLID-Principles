@@ -1,2 +1,1 @@
-console.log("start");
-console.log("test");
+console.log("aaa");
