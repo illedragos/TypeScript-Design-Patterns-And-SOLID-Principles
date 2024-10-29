@@ -1,5 +1,5 @@
-// Module 1: The Book class
-class Book {
+// Module 1: The NiceBook class
+class NiceBook {
   title: string;
   author: string;
   isbn: string;
@@ -17,9 +17,9 @@ class Book {
 
 // Module 2: The Library class
 class Library {
-  private books: Book[] = [];
+  private books: NiceBook[] = [];
 
-  addBook(book: Book): void {
+  addBook(book: NiceBook): void {
     this.books.push(book);
     console.log(`Book '${book.title}' added to the library.`);
   }
@@ -30,8 +30,8 @@ class Library {
 }
 
 // Using the modules
-const book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "9780743273565");
-const book2 = new Book("1984", "George Orwell", "9780451524935");
+const book1 = new NiceBook("The Great Gatsby", "F. Scott Fitzgerald", "9780743273565");
+const book2 = new NiceBook("1984", "George Orwell", "9780451524935");
 
 const library = new Library();
 library.addBook(book1);
