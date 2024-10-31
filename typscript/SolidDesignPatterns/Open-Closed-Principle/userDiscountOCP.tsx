@@ -16,13 +16,20 @@ console.log("aaa");
 //   }
 // }
 
+
+//add loyality functionality
+
 interface ICustomer {
   giveDiscount(): number;
+  addLoyaltyPoints(amountSpent: number): number;
 }
 
 class RegularCustomer implements ICustomer {
   giveDiscount(): number {
     return 10;
+  }
+  addLoyaltyPoints(amountSpent: number) {
+    return amountSpent;
   }
 }
 
@@ -30,12 +37,20 @@ class PremiumCustomer implements ICustomer {
   giveDiscount(): number {
     return 20;
   }
+  addLoyaltyPoints(amountSpent: number) {
+    return amountSpent * 2;
+  }
+
 }
 
 class GoldCustomr implements ICustomer {
   giveDiscount(): number {
     return 30;
   }
+  addLoyaltyPoints(amountSpent: number) {
+    return amountSpent * 3;
+  }
+
 }
 
 class Discount {
