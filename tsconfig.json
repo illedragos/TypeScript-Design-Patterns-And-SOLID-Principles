@@ -7,5 +7,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["typscript/**/*"]  // Include all TypeScript files in the 'typescript' folder
+  "include": [
+    "typescript/**/*"
+  ] // Include all TypeScript files in the 'typescript' folder
 }
