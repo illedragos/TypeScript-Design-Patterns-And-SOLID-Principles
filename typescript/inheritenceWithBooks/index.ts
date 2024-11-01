@@ -1,5 +1,3 @@
-import { UUID } from "sequelize";
-
 console.log("aaa");
 
 
