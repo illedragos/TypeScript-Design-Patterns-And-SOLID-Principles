@@ -18,6 +18,10 @@ class ConcretePrototype implements Prototype {
     const clone = Object.create(this);
     clone.user = { ...this.user }
     return clone;
+
+    // const clone = Object.create(this);
+    // clone.user = JSON.parse(JSON.stringify(this.user)); // Deep copy
+    // return clone;
   }
 
   public getUserDetails(): UserDetails {
