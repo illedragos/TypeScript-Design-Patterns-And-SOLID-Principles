@@ -22,7 +22,6 @@ class Hatchback3 extends Car3 {
   }
 }
 
-// 🚀 Builder Class
 class Car3Builder {
   private model!: string;
   private productionYear!: number;
