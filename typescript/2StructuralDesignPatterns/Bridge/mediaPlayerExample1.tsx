@@ -39,6 +39,9 @@ class VideoPlayer extends MediaPlayerAbstraction {
 }
 
 //Client code
+//You can switch the implementation at the runtime.
+//At runtime I'm choosing if I want a WindowsMediaPlayer or a MacOsMediaPlayer.
+
 let windowsAudioPlayer = new AudioPlayer(new WindowsMediaPlayer());
 windowsAudioPlayer.playFile();
 
