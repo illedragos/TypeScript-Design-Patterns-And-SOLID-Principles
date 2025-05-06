@@ -79,3 +79,7 @@ MyFolder.getComponents().map((component: IFileSystemComponent) => {
   console.log(` - ${component.getName()} size:${component.getSize()}`);
 });
 console.log(MyFolder.getSize());
+
+const folder1 = new Folder1("New Folder1");
+const folder2 = new Folder1("New Folder2");
+folder1.addComponent(folder2);
