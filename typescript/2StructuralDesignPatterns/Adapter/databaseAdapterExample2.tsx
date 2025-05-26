@@ -43,10 +43,10 @@ database.connectToMySql("mysql://localhost:3306/mydb");
 database.executeMySqlQuery("SELECT * FROM * users");
 
 const mySqldatabse = new MySqlDatabaseA();
-const postgressDatabse = new PostgreSQLDAtabaseA();
+const postgressDatabase = new PostgreSQLDAtabaseA();
 
 const DatabasePostgresAdapted = new DatabaseAapterPostgrestoMySql(
-  postgressDatabse
+  postgressDatabase
 );
 
 DatabasePostgresAdapted.connectToMySql("URI 1");
