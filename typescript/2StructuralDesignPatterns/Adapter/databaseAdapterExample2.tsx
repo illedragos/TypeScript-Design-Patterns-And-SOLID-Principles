@@ -26,6 +26,8 @@ class PostgreSQLDAtabaseA implements IPostgreSql {
   }
 }
 
+//adapt PostgreSql to MySql
+
 class DatabaseAapterPostgrestoMySql implements IMySql {
   constructor(private postgreSQL: IPostgreSql) {}
   connectToMySql(uri: string): void {
