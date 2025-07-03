@@ -1,4 +1,3 @@
-console.log("start-Index-2025");
 interface Observer {
   update(subject: Subject): void;
 }
